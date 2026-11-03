@@ -1,0 +1,164 @@
+[
+  {
+    "id": 4,
+    "name": "Rolex Submariner Date",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 4050000,
+    "image": "images/rolex-submariner-date.jpg",
+    "tag": "Swiss Icon",
+    "dial": "#0d0d0d",
+    "strap": "#8c8c8c",
+    "desc": "Iconic diver with ceramic Cerachrom bezel, Oyster bracelet and Chromalight luminescent display.",
+    "specs": {
+      "Movement": "Automatic Cal. 3235",
+      "Case": "41 mm Oystersteel",
+      "Water Resistance": "300 m",
+      "Power Reserve": "70 Hours"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Rolex Day-Date 40 President",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 10500000,
+    "image": "images/rolex-day-date-40.jpg",
+    "tag": "The President Watch",
+    "dial": "#c9a227",
+    "strap": "#c9a227",
+    "desc": "The President watch in 18 ct yellow gold with day and date display and iconic President bracelet.",
+    "specs": {
+      "Movement": "Automatic Cal. 3255",
+      "Case": "40 mm 18 ct Gold",
+      "Water Resistance": "100 m",
+      "Power Reserve": "70 Hours"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Zivanché Dragon Tourbillon",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 1890000,
+    "image": "images/zivanche-dragon-tourbillon.jpg",
+    "tag": "Haute Horlogerie",
+    "dial": "#1c2f6e",
+    "strap": "#111111",
+    "desc": "Skeleton tourbillon with hand-sculpted rose-gold dragons over a deep blue enamel-style dial.",
+    "specs": {
+      "Movement": "Flying Tourbillon Manual",
+      "Case": "44 mm Rose-gold tone",
+      "Water Resistance": "30 m",
+      "Power Reserve": "72 Hours"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Chenzei Silver Horse Tourbillon",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 145000,
+    "image": "images/chenzei-silver-horse-tourbillon.jpg",
+    "tag": "Engraved Masterpiece",
+    "dial": "#e6e6e6",
+    "strap": "#111111",
+    "desc": "Engraved silver case, carved horse dial with diamond-set markers and open beating tourbillon.",
+    "specs": {
+      "Movement": "Automatic Skeleton",
+      "Case": "42 mm Engraved Steel",
+      "Water Resistance": "30 m",
+      "Power Reserve": "42 Hours"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Rolex Sky-Dweller Annual Calendar",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 12900000,
+    "image": "images/rolex-sky-dweller.jpg",
+    "tag": "Dual Time Zone",
+    "dial": "#1d3f7a",
+    "strap": "#b08968",
+    "desc": "Rose gold annual-calendar watch with fluted Ring Command bezel, blue dial and Jubilee bracelet.",
+    "specs": {
+      "Movement": "Automatic Cal. 9001",
+      "Case": "42 mm Everose Gold",
+      "Water Resistance": "100 m",
+      "Power Reserve": "72 Hours"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Richard Mille Red Chronograph",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 58500000,
+    "image": "images/richard-mille-red-chronograph.jpg",
+    "tag": "Ultra-Luxury",
+    "dial": "#2a2a2a",
+    "strap": "#c8102e",
+    "desc": "Tonneau skeleton flyback chronograph in red carbon-style case with matching performance rubber strap.",
+    "specs": {
+      "Movement": "Automatic Flyback Chrono",
+      "Case": "Tonneau Carbon Composite",
+      "Water Resistance": "50 m",
+      "Power Reserve": "55 Hours"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Alberto Grand Reserve",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 5150000,
+    "image": "images/alberto-grand-reserve.jpg",
+    "tag": "Atelier Edition",
+    "dial": "#11151a",
+    "strap": "#c39b57",
+    "desc": "A refined automatic dress watch with brushed gold-tone case and midnight dial with exhibition back.",
+    "specs": {
+      "Movement": "Automatic Calibre 2824-2",
+      "Case": "40 mm Gold-tone Steel",
+      "Water Resistance": "50 m",
+      "Power Reserve": "42 Hours"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Alberto Heritage Gold",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 6120000,
+    "image": "images/alberto-heritage-gold.jpg",
+    "tag": "18K Heritage",
+    "dial": "#e9dfc8",
+    "strap": "#6b472d",
+    "desc": "Classic heritage dress watch with warm ivory dial, hand-applied gold markers and crocodile grain leather.",
+    "specs": {
+      "Movement": "In-house Automatic Calibre",
+      "Case": "39 mm 18 ct Solid Gold",
+      "Water Resistance": "50 m",
+      "Power Reserve": "48 Hours"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Alberto Imperial Chrono",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 4280000,
+    "image": "images/alberto-imperial-chrono.jpg",
+    "tag": "Chronograph",
+    "dial": "#1c2630",
+    "strap": "#333b42",
+    "desc": "Sophisticated chronograph with dark sunburst dial, polished steel case and triple sub-dial counters.",
+    "specs": {
+      "Movement": "Automatic Chronograph Calibre",
+      "Case": "42 mm Stainless Steel",
+      "Water Resistance": "100 m",
+      "Power Reserve": "52 Hours"
+    }
+  }
+]

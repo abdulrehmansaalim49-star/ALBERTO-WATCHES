@@ -1,0 +1,824 @@
+[
+  {
+    "id": 1,
+    "name": "Rolex Datejust 1968",
+    "category": "Vintage",
+    "gender": "Men",
+    "price": 2475000,
+    "image": "images/rolex-datejust-1968.jpg",
+    "tag": "Vintage Classic",
+    "dial": "#e8dcc0",
+    "strap": "#6b4a2b",
+    "desc": "Restored automatic Datejust with cream dial, fluted bezel and original patina.",
+    "specs": {
+      "Movement": "Automatic Cal. 1570",
+      "Case": "36 mm Steel",
+      "Water Resistance": "50 m",
+      "Power Reserve": "48 Hours",
+      "Warranty": "12 Months Alberto Vintage Guarantee"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bulova Accutron 214",
+    "category": "Vintage",
+    "gender": "Men",
+    "price": 348000,
+    "image": "images/bulova-accutron-214.jpg",
+    "tag": "Vintage Tuning-Fork",
+    "dial": "#2f4b6e",
+    "strap": "#222222",
+    "desc": "Classic tuning-fork Accutron from the 1970s, fully serviced and running with hum frequency.",
+    "specs": {
+      "Movement": "Tuning Fork Resonator",
+      "Case": "34 mm Gold-filled",
+      "Water Resistance": "30 m",
+      "Power Reserve": "Continuous Battery",
+      "Warranty": "12 Months Alberto Vintage Guarantee"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Rolex Submariner Date",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 4050000,
+    "image": "images/rolex-submariner-date.jpg",
+    "tag": "Swiss Icon",
+    "dial": "#0d0d0d",
+    "strap": "#8c8c8c",
+    "desc": "Iconic diver with ceramic Cerachrom bezel, Oyster bracelet and Chromalight luminescent display.",
+    "specs": {
+      "Movement": "Automatic Cal. 3235",
+      "Case": "41 mm Oystersteel",
+      "Water Resistance": "300 m",
+      "Power Reserve": "70 Hours",
+      "Warranty": "5-Year International"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Rolex Day-Date 40 President",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 10500000,
+    "image": "images/rolex-day-date-40.jpg",
+    "tag": "The President Watch",
+    "dial": "#c9a227",
+    "strap": "#c9a227",
+    "desc": "The President watch in 18 ct yellow gold with day and date display and iconic President bracelet.",
+    "specs": {
+      "Movement": "Automatic Cal. 3255",
+      "Case": "40 mm 18 ct Gold",
+      "Water Resistance": "100 m",
+      "Power Reserve": "70 Hours",
+      "Warranty": "5-Year International"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Zivanché Dragon Tourbillon",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 1890000,
+    "image": "images/zivanche-dragon-tourbillon.jpg",
+    "tag": "Haute Horlogerie",
+    "dial": "#1c2f6e",
+    "strap": "#111111",
+    "desc": "Skeleton tourbillon with hand-sculpted rose-gold dragons over a deep blue enamel-style dial.",
+    "specs": {
+      "Movement": "Flying Tourbillon Manual",
+      "Case": "44 mm Rose-gold tone",
+      "Water Resistance": "30 m",
+      "Power Reserve": "72 Hours",
+      "Warranty": "5-Year Alberto Master Atelier"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Chenzei Silver Horse Tourbillon",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 145000,
+    "image": "images/chenzei-silver-horse-tourbillon.jpg",
+    "tag": "Engraved Masterpiece",
+    "dial": "#e6e6e6",
+    "strap": "#111111",
+    "desc": "Engraved silver case, carved horse dial with diamond-set markers and open beating tourbillon.",
+    "specs": {
+      "Movement": "Automatic Skeleton",
+      "Case": "42 mm Engraved Steel",
+      "Water Resistance": "30 m",
+      "Power Reserve": "42 Hours",
+      "Warranty": "3-Year International"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Rolex Sky-Dweller Annual Calendar",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 12900000,
+    "image": "images/rolex-sky-dweller.jpg",
+    "tag": "Dual Time Zone",
+    "dial": "#1d3f7a",
+    "strap": "#b08968",
+    "desc": "Rose gold annual-calendar watch with fluted Ring Command bezel, blue dial and Jubilee bracelet.",
+    "specs": {
+      "Movement": "Automatic Cal. 9001",
+      "Case": "42 mm Everose Gold",
+      "Water Resistance": "100 m",
+      "Power Reserve": "72 Hours",
+      "Warranty": "5-Year International"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Richard Mille Red Chronograph",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 58500000,
+    "image": "images/richard-mille-red-chronograph.jpg",
+    "tag": "Ultra-Luxury",
+    "dial": "#2a2a2a",
+    "strap": "#c8102e",
+    "desc": "Tonneau skeleton flyback chronograph in red carbon-style case with matching performance rubber strap.",
+    "specs": {
+      "Movement": "Automatic Flyback Chrono",
+      "Case": "Tonneau Carbon Composite",
+      "Water Resistance": "50 m",
+      "Power Reserve": "55 Hours",
+      "Warranty": "5-Year Atelier Guarantee"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Alberto Smart Series 4",
+    "category": "Smart Watches",
+    "gender": "Kids",
+    "price": 36000,
+    "image": "images/alberto-smart-series-4.jpg",
+    "tag": "Kids Smart",
+    "dial": "#050a14",
+    "strap": "#111111",
+    "desc": "Square AMOLED touch display with activity rings, parental safe-zones and a soft silicone strap.",
+    "specs": {
+      "Display": "1.7 in HD Touchscreen",
+      "Case": "42 mm Lightweight Alloy",
+      "Water Resistance": "IP67 Water Resistant",
+      "Battery Life": "7 Days Standby",
+      "Warranty": "2-Year Comprehensive"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Zero Italian Diver",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 52500,
+    "image": "images/zero-italian-diver.jpg",
+    "tag": "Diver Smart",
+    "dial": "#0d0d0d",
+    "strap": "#111111",
+    "desc": "Italian diving styling with ceramic-look bezel, luminous markers and Bluetooth fitness synchronisation.",
+    "specs": {
+      "Movement": "Hybrid Smart Quartz",
+      "Case": "44 mm Steel",
+      "Water Resistance": "IP68 / 50m",
+      "Battery Life": "14 Days",
+      "Warranty": "2-Year International"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Alberto Milanese Duo",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 64000,
+    "image": "images/alberto-milanese-duo.jpg",
+    "tag": "Executive Smart",
+    "dial": "#0b0b0b",
+    "strap": "#8c8c8c",
+    "desc": "Two-tone steel case with a fine mesh Milanese bracelet and an elegant high-resolution dial face.",
+    "specs": {
+      "Display": "1.32 in AMOLED",
+      "Case": "36 mm Steel Mesh",
+      "Water Resistance": "IP68 Waterproof",
+      "Battery Life": "10 Days",
+      "Warranty": "2-Year Alberto Warranty"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Alberto Junior Explorer",
+    "category": "Smart Watches",
+    "gender": "Kids",
+    "price": 22000,
+    "image": "images/alberto-junior-explorer.jpg",
+    "tag": "Kids Explorer",
+    "dial": "#173b5f",
+    "strap": "#2b7a78",
+    "desc": "A colourful, durable kids smartwatch with step counter, emergency call button and hypoallergenic strap.",
+    "specs": {
+      "Display": "1.44 in Touchscreen",
+      "Case": "38 mm Shockproof",
+      "Water Resistance": "IP67 Splashproof",
+      "Battery Life": "5 Days",
+      "Warranty": "1-Year Kids Care"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Alberto Mini Sport",
+    "category": "Luxury",
+    "gender": "Kids",
+    "price": 16500,
+    "image": "images/alberto-mini-sport.jpg",
+    "tag": "Young Connoisseur",
+    "dial": "#173b24",
+    "strap": "#d69b2c",
+    "desc": "A playful luxury everyday analogue watch with bold numerals, lightweight case and comfortable fit.",
+    "specs": {
+      "Movement": "Japanese Quartz",
+      "Case": "34 mm Lightweight Composite",
+      "Water Resistance": "30 m",
+      "Power Reserve": "3-Year Battery",
+      "Warranty": "2-Year Warranty"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Alberto Kids Star",
+    "category": "Vintage",
+    "gender": "Kids",
+    "price": 19000,
+    "image": "images/alberto-kids-star.jpg",
+    "tag": "Classic Youth",
+    "dial": "#4b245c",
+    "strap": "#4b245c",
+    "desc": "A classic-inspired kids timepiece with clear legible dial, luminous hands and soft easy-fit strap.",
+    "specs": {
+      "Movement": "Quartz Calibre",
+      "Case": "32 mm Alloy",
+      "Water Resistance": "30 m",
+      "Power Reserve": "3-Year Battery",
+      "Warranty": "2-Year Guarantee"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Alberto Apex Smart",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 69500,
+    "image": "images/alberto-apex-smart.jpg",
+    "tag": "AMOLED Flagship",
+    "dial": "#07131a",
+    "strap": "#1e252b",
+    "desc": "Premium AMOLED smartwatch with continuous heart rate, blood oxygen sensor and precision alloy case.",
+    "specs": {
+      "Display": "1.45 in Super AMOLED",
+      "Case": "44 mm Aircraft Aluminium",
+      "Water Resistance": "5 ATM / 50m",
+      "Battery Life": "12 Days",
+      "Warranty": "2-Year International"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Alberto Track Pro",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 78000,
+    "image": "images/alberto-track-pro.jpg",
+    "tag": "Sport Precision",
+    "dial": "#071b26",
+    "strap": "#182a34",
+    "desc": "Sport-focused smartwatch with GPS route recording, biometric activity rings and always-on display.",
+    "specs": {
+      "Display": "1.50 in AMOLED Always-On",
+      "Case": "45 mm Matte Aluminium",
+      "Water Resistance": "5 ATM Water Resistance",
+      "Battery Life": "14 Days",
+      "Warranty": "2-Year Warranty"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Alberto Junior Connect",
+    "category": "Smart Watches",
+    "gender": "Kids",
+    "price": 25000,
+    "image": "images/alberto-junior-connect.jpg",
+    "tag": "Connected Junior",
+    "dial": "#10263b",
+    "strap": "#286c83",
+    "desc": "Friendly kids smartwatch with simple activity goals, classroom silence mode and clear UI.",
+    "specs": {
+      "Display": "1.45 in Touch Display",
+      "Case": "39 mm Protective Bumper",
+      "Water Resistance": "IP67 Splash Guard",
+      "Battery Life": "6 Days",
+      "Warranty": "1-Year Kids Warranty"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Alberto Pulse X",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 72000,
+    "image": "images/alberto-pulse-x.jpg",
+    "tag": "Health Pro",
+    "dial": "#151515",
+    "strap": "#555555",
+    "desc": "Advanced biometric watch with ECG pulse sensor, sleep phase analyzer and stainless steel bezel.",
+    "specs": {
+      "Display": "1.46 in Curved AMOLED",
+      "Case": "43 mm Steel & Ceramic",
+      "Water Resistance": "5 ATM",
+      "Battery Life": "10 Days",
+      "Warranty": "2-Year Warranty"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Alberto Explorer Smart",
+    "category": "Smart Watches",
+    "gender": "Kids",
+    "price": 27500,
+    "image": "images/alberto-explorer-smart.jpg",
+    "tag": "Outdoor Kids",
+    "dial": "#16354b",
+    "strap": "#4d7d91",
+    "desc": "Durable connected timepiece for young explorers with compass guide, alarms and activity milestones.",
+    "specs": {
+      "Display": "1.44 in Sunlight Readable",
+      "Case": "40 mm Reinforced Resin",
+      "Water Resistance": "IP67",
+      "Battery Life": "7 Days",
+      "Warranty": "1-Year Comprehensive"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Alberto Grand Reserve",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 5150000,
+    "image": "images/alberto-grand-reserve.jpg",
+    "tag": "Atelier Edition",
+    "dial": "#11151a",
+    "strap": "#c39b57",
+    "desc": "A refined automatic dress watch with brushed gold-tone case and midnight dial with exhibition back.",
+    "specs": {
+      "Movement": "Automatic Calibre 2824-2",
+      "Case": "40 mm Gold-tone Steel",
+      "Water Resistance": "50 m",
+      "Power Reserve": "42 Hours",
+      "Warranty": "5-Year Guarantee"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Alberto Heritage Gold",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 6120000,
+    "image": "images/alberto-heritage-gold.jpg",
+    "tag": "18K Heritage",
+    "dial": "#e9dfc8",
+    "strap": "#6b472d",
+    "desc": "Classic heritage dress watch with warm ivory dial, hand-applied gold markers and crocodile grain leather.",
+    "specs": {
+      "Movement": "In-house Automatic Calibre",
+      "Case": "39 mm 18 ct Solid Gold",
+      "Water Resistance": "50 m",
+      "Power Reserve": "48 Hours",
+      "Warranty": "5-Year International"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Alberto Imperial Chrono",
+    "category": "Luxury",
+    "gender": "Men",
+    "price": 4280000,
+    "image": "images/alberto-imperial-chrono.jpg",
+    "tag": "Chronograph",
+    "dial": "#1c2630",
+    "strap": "#333b42",
+    "desc": "Sophisticated chronograph with dark sunburst dial, polished steel case and triple sub-dial counters.",
+    "specs": {
+      "Movement": "Automatic Chronograph Calibre",
+      "Case": "42 mm Stainless Steel",
+      "Water Resistance": "100 m",
+      "Power Reserve": "52 Hours",
+      "Warranty": "5-Year Guarantee"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Alberto Pulse Elite",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 61000,
+    "image": "images/alberto-pulse-elite.jpg",
+    "tag": "AMOLED Elite",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Premium round smartwatch with vivid AMOLED face and comfortable black sport silicone strap.",
+    "specs": {
+      "Display": "AMOLED Touchscreen",
+      "Case": "Premium Titanium Alloy",
+      "Connectivity": "Bluetooth 5.3 Calling",
+      "Water Resistance": "5 ATM",
+      "Warranty": "2-Year Warranty"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Alberto Titanium Link Smart",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 66500,
+    "image": "images/alberto-titanium-link-smart.jpg",
+    "tag": "Titanium Mesh",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Bold smart timepiece with polished black metal bracelet and dynamic customizable dial styles.",
+    "specs": {
+      "Display": "1.43 in Ultra Retina",
+      "Case": "Titanium IP Steel",
+      "Connectivity": "Smart Notifications",
+      "Water Resistance": "5 ATM",
+      "Warranty": "2-Year Warranty"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Alberto Sport Connect Pro",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 69500,
+    "image": "images/alberto-sport-connect-pro.jpg",
+    "tag": "Sport Pro",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Sporty connected watch with Bluetooth calling and high-contrast digital speedometer dial.",
+    "specs": {
+      "Display": "AMOLED High-Brightness",
+      "Case": "Impact Resistant Alloy",
+      "Connectivity": "GPS + Bluetooth Audio",
+      "Water Resistance": "5 ATM",
+      "Warranty": "2-Year Guarantee"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Alberto Urban 4G Smart",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 64000,
+    "image": "images/alberto-urban-4g-smart.jpg",
+    "tag": "Urban Edition",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Modern square smartwatch with clean interface and everyday connectivity styling.",
+    "specs": {
+      "Display": "1.78 in Edge-to-Edge",
+      "Case": "Brushed Aluminium",
+      "Connectivity": "4G LTE & WiFi",
+      "Water Resistance": "IP68",
+      "Warranty": "2-Year International"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Alberto Horizon 5G",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 78000,
+    "image": "images/alberto-horizon-5g.jpg",
+    "tag": "Horizon Tech",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Statement smartwatch with metallic case, vibrant display and flexible dark textured strap.",
+    "specs": {
+      "Display": "AMOLED 60Hz Smooth",
+      "Case": "Stainless Steel Composite",
+      "Connectivity": "Dual-Band GPS & Health Sensors",
+      "Water Resistance": "5 ATM",
+      "Warranty": "2-Year Warranty"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Alberto Active Square",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 50000,
+    "image": "images/alberto-active-square.jpg",
+    "tag": "Active Life",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Lightweight square smartwatch with activity tracking and clear real-time fitness dashboard.",
+    "specs": {
+      "Display": "1.69 in Touch Screen",
+      "Case": "Lightweight Magnesium Alloy",
+      "Connectivity": "Heart & Sleep Tracking",
+      "Water Resistance": "IP68 Waterproof",
+      "Warranty": "1-Year Comprehensive"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Alberto Icon Touch",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 47000,
+    "image": "images/alberto-icon-touch.jpg",
+    "tag": "Minimalist Smart",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Minimal black smartwatch with colourful app menu and easy-touch quick access bezel.",
+    "specs": {
+      "Display": "1.4 in HD Display",
+      "Case": "Durable Matte Composite",
+      "Connectivity": "Smart Assistant Sync",
+      "Water Resistance": "IP67",
+      "Warranty": "1-Year Warranty"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Alberto Adventure Ultra",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 83500,
+    "image": "images/alberto-adventure-ultra.jpg",
+    "tag": "Extreme Explorer",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Rugged sport smartwatch with orange performance alpine loop and dual-frequency GPS.",
+    "specs": {
+      "Display": "2.0 in Sapphire Touchscreen",
+      "Case": "Titanium Armor 49mm",
+      "Connectivity": "Siren + Compass + Dive App",
+      "Water Resistance": "100m Dive Rated",
+      "Warranty": "3-Year International"
+    }
+  },
+  {
+    "id": 101,
+    "name": "Ocean Marble Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 25000,
+    "image": "images/ocean-marble-wall-clock.jpg",
+    "tag": "Handcrafted Marble",
+    "dial": "#1c3c54",
+    "strap": "#09121c",
+    "desc": "Deep ocean blue marble wall clock with genuine gold leaf veins and silent sweeping quartz mechanism.",
+    "specs": {
+      "Movement": "Silent Sweep Quartz (No Ticking)",
+      "Case": "Natural Marble & Brass / 35cm",
+      "Power": "1x AA Alkaline Battery",
+      "Warranty": "3-Year Alberto Clock Guarantee"
+    }
+  },
+  {
+    "id": 102,
+    "name": "Black Elegance Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 22500,
+    "image": "images/black-elegance-wall-clock.jpg",
+    "tag": "Minimalist Obsidian",
+    "dial": "#111111",
+    "strap": "#222222",
+    "desc": "Matte obsidian dial with polished gold hands and hour markers, engineered for luxury office interiors.",
+    "specs": {
+      "Movement": "High-Torque German Quartz",
+      "Case": "Brushed Steel & Tempered Glass / 38cm",
+      "Power": "1x AA Alkaline Battery",
+      "Warranty": "3-Year Alberto Clock Guarantee"
+    }
+  },
+  {
+    "id": 103,
+    "name": "White Marble Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 19500,
+    "image": "images/white-marble-wall-clock.jpg",
+    "tag": "Carrara Stone",
+    "dial": "#f2f2f2",
+    "strap": "#d4af37",
+    "desc": "Pure white Carrara marble wall clock adorned with minimalist brushed champagne gold hands.",
+    "specs": {
+      "Movement": "Silent Sweep Quartz",
+      "Case": "Solid Carrara Stone / 30cm",
+      "Power": "1x AA Alkaline Battery",
+      "Warranty": "3-Year Alberto Clock Guarantee"
+    }
+  },
+  {
+    "id": 104,
+    "name": "Floral Gold Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 28000,
+    "image": "images/floral-gold-wall-clock.jpg",
+    "tag": "Artisanal Brass",
+    "dial": "#2e2118",
+    "strap": "#c9a45c",
+    "desc": "Artisan crafted floral filigree wall clock in antique brushed gold finish with raised Roman numerals.",
+    "specs": {
+      "Movement": "Precision Horology Quartz",
+      "Case": "Wrought Iron & Gold Leaf / 45cm",
+      "Power": "1x AA Alkaline Battery",
+      "Warranty": "3-Year Alberto Clock Guarantee"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Gold Marble Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 26500,
+    "image": "images/gold-marble-wall-clock.jpg",
+    "tag": "Regal Gold Vein",
+    "dial": "#d8b45e",
+    "strap": "#3a2a1a",
+    "desc": "Warm amber and gold marble timepiece with hand-polished bevelled rim and gold-plated second hand.",
+    "specs": {
+      "Movement": "Silent Sweep Quartz",
+      "Case": "Engineered Stone & 18K Gilt / 40cm",
+      "Power": "1x AA Alkaline Battery",
+      "Warranty": "3-Year Alberto Clock Guarantee"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Alberto Signature Clock",
+    "category": "Clocks",
+    "gender": "Kids",
+    "price": 58500,
+    "image": "images/alberto-signature-clock.jpg",
+    "tag": "Family Heritage",
+    "dial": "#f2dfb1",
+    "strap": "#5a4632",
+    "desc": "A warm, easy-to-read decorative wall clock bringing timeless Alberto horological charm to family spaces.",
+    "specs": {
+      "Movement": "High-Precision Quartz",
+      "Case": "Natural Oak & Brass / 32cm",
+      "Power": "1x AA Alkaline Battery",
+      "Warranty": "3-Year Alberto Clock Guarantee"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Rolex Lady-Datejust 28",
+    "category": "Luxury",
+    "gender": "Women",
+    "price": 3850000,
+    "image": "images/rolex-lady-datejust-28.jpg",
+    "tag": "Swiss Icon",
+    "dial": "#e9e1d0",
+    "strap": "#b8b8b8",
+    "desc": "Fluted-bezel Lady-Datejust with champagne dial, Jubilee bracelet and sapphire cyclops.",
+    "specs": {
+      "Movement": "Automatic Cal. 2236",
+      "Case": "28 mm Oystersteel & Gold",
+      "Water Resistance": "100 m",
+      "Power Reserve": "55 Hours"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Alberto Rosé Eternelle",
+    "category": "Luxury",
+    "gender": "Women",
+    "price": 2450000,
+    "image": "images/alberto-rose-eternelle.jpg",
+    "tag": "Rose Gold",
+    "dial": "#f3dcd0",
+    "strap": "#c98a76",
+    "desc": "Rose-gold ladies dress watch with mother-of-pearl dial and diamond-set indices.",
+    "specs": {
+      "Movement": "Swiss Automatic",
+      "Case": "30 mm 18K Rose Gold",
+      "Water Resistance": "50 m",
+      "Power Reserve": "42 Hours"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Alberto Pearl Moonphase",
+    "category": "Luxury",
+    "gender": "Women",
+    "price": 3150000,
+    "image": "images/alberto-pearl-moonphase.jpg",
+    "tag": "Moonphase",
+    "dial": "#f4f0ea",
+    "strap": "#d9d3c7",
+    "desc": "Moon-phase complication on a pearl-white dial with a polished steel bracelet.",
+    "specs": {
+      "Movement": "Automatic Moonphase",
+      "Case": "34 mm Polished Steel",
+      "Water Resistance": "50 m",
+      "Power Reserve": "48 Hours"
+    }
+  },
+  {
+    "id": 53,
+    "name": "Omega Ladymatic 1972",
+    "category": "Vintage",
+    "gender": "Women",
+    "price": 485000,
+    "image": "images/omega-ladymatic-1972.jpg",
+    "tag": "Vintage Classic",
+    "dial": "#d8c9a6",
+    "strap": "#5a3d26",
+    "desc": "Restored 1970s Ladymatic with gold-plated case and original leather strap.",
+    "specs": {
+      "Movement": "Automatic Cal. 681",
+      "Case": "25 mm Gold-plated",
+      "Water Resistance": "30 m",
+      "Power Reserve": "44 Hours"
+    }
+  },
+  {
+    "id": 54,
+    "name": "Bulova Lady Accutron 1969",
+    "category": "Vintage",
+    "gender": "Women",
+    "price": 215000,
+    "image": "images/bulova-lady-accutron-1969.jpg",
+    "tag": "Vintage Tuning-Fork",
+    "dial": "#cfd6dc",
+    "strap": "#8a8a8a",
+    "desc": "Delicate tuning-fork Accutron for ladies, serviced and humming smoothly.",
+    "specs": {
+      "Movement": "Tuning Fork Resonator",
+      "Case": "26 mm Gold-filled",
+      "Water Resistance": "30 m",
+      "Power Reserve": "Continuous Battery"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Alberto Aura Smart Rose",
+    "category": "Smart Watches",
+    "gender": "Women",
+    "price": 58000,
+    "image": "images/alberto-aura-smart-rose.jpg",
+    "tag": "Lady Smart",
+    "dial": "#2a1a1f",
+    "strap": "#c98a76",
+    "desc": "Slim rose-tone smartwatch with AMOLED display, cycle tracking and heart-rate sensor.",
+    "specs": {
+      "Display": "1.4 in AMOLED",
+      "Case": "38 mm Rose Alloy",
+      "Water Resistance": "IP68 / 50m",
+      "Battery Life": "7 Days"
+    }
+  },
+  {
+    "id": 56,
+    "name": "Alberto Grace Fit",
+    "category": "Smart Watches",
+    "gender": "Women",
+    "price": 45500,
+    "image": "images/alberto-grace-fit.jpg",
+    "tag": "Fitness Smart",
+    "dial": "#101318",
+    "strap": "#e5d3c8",
+    "desc": "Lightweight fitness smartwatch with silicone strap, sleep and stress monitoring.",
+    "specs": {
+      "Display": "1.3 in HD Touchscreen",
+      "Case": "36 mm Lightweight Alloy",
+      "Water Resistance": "IP67",
+      "Battery Life": "10 Days"
+    }
+  },
+  {
+    "id": 57,
+    "name": "Alberto Bloom Amoled",
+    "category": "Smart Watches",
+    "gender": "Women",
+    "price": 62500,
+    "image": "images/alberto-bloom-amoled.jpg",
+    "tag": "Bloom Series",
+    "dial": "#1b1020",
+    "strap": "#d4b483",
+    "desc": "Elegant round AMOLED smartwatch with Milanese loop, calls and notifications.",
+    "specs": {
+      "Display": "1.5 in AMOLED",
+      "Case": "40 mm Steel",
+      "Water Resistance": "IP68 / 50m",
+      "Battery Life": "6 Days"
+    }
+  }
+]

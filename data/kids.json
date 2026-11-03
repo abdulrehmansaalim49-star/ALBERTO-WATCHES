@@ -1,0 +1,127 @@
+[
+  {
+    "id": 7,
+    "name": "Alberto Smart Series 4",
+    "category": "Smart Watches",
+    "gender": "Kids",
+    "price": 36000,
+    "image": "images/alberto-smart-series-4.jpg",
+    "tag": "Kids Smart",
+    "dial": "#050a14",
+    "strap": "#111111",
+    "desc": "Square AMOLED touch display with activity rings, parental safe-zones and a soft silicone strap.",
+    "specs": {
+      "Display": "1.7 in HD Touchscreen",
+      "Case": "42 mm Lightweight Alloy",
+      "Water Resistance": "IP67 Water Resistant",
+      "Battery Life": "7 Days Standby"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Alberto Junior Explorer",
+    "category": "Smart Watches",
+    "gender": "Kids",
+    "price": 22000,
+    "image": "images/alberto-junior-explorer.jpg",
+    "tag": "Kids Explorer",
+    "dial": "#173b5f",
+    "strap": "#2b7a78",
+    "desc": "A colourful, durable kids smartwatch with step counter, emergency call button and hypoallergenic strap.",
+    "specs": {
+      "Display": "1.44 in Touchscreen",
+      "Case": "38 mm Shockproof",
+      "Water Resistance": "IP67 Splashproof",
+      "Battery Life": "5 Days"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Alberto Mini Sport",
+    "category": "Luxury",
+    "gender": "Kids",
+    "price": 16500,
+    "image": "images/alberto-mini-sport.jpg",
+    "tag": "Young Connoisseur",
+    "dial": "#173b24",
+    "strap": "#d69b2c",
+    "desc": "A playful luxury everyday analogue watch with bold numerals, lightweight case and comfortable fit.",
+    "specs": {
+      "Movement": "Japanese Quartz",
+      "Case": "34 mm Lightweight Composite",
+      "Water Resistance": "30 m",
+      "Power Reserve": "3-Year Battery"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Alberto Kids Star",
+    "category": "Vintage",
+    "gender": "Kids",
+    "price": 19000,
+    "image": "images/alberto-kids-star.jpg",
+    "tag": "Classic Youth",
+    "dial": "#4b245c",
+    "strap": "#4b245c",
+    "desc": "A classic-inspired kids timepiece with clear legible dial, luminous hands and soft easy-fit strap.",
+    "specs": {
+      "Movement": "Quartz Calibre",
+      "Case": "32 mm Alloy",
+      "Water Resistance": "30 m",
+      "Power Reserve": "3-Year Battery"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Alberto Junior Connect",
+    "category": "Smart Watches",
+    "gender": "Kids",
+    "price": 25000,
+    "image": "images/alberto-junior-connect.jpg",
+    "tag": "Connected Junior",
+    "dial": "#10263b",
+    "strap": "#286c83",
+    "desc": "Friendly kids smartwatch with simple activity goals, classroom silence mode and clear UI.",
+    "specs": {
+      "Display": "1.45 in Touch Display",
+      "Case": "39 mm Protective Bumper",
+      "Water Resistance": "IP67 Splash Guard",
+      "Battery Life": "6 Days"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Alberto Explorer Smart",
+    "category": "Smart Watches",
+    "gender": "Kids",
+    "price": 27500,
+    "image": "images/alberto-explorer-smart.jpg",
+    "tag": "Outdoor Kids",
+    "dial": "#16354b",
+    "strap": "#4d7d91",
+    "desc": "Durable connected timepiece for young explorers with compass guide, alarms and activity milestones.",
+    "specs": {
+      "Display": "1.44 in Sunlight Readable",
+      "Case": "40 mm Reinforced Resin",
+      "Water Resistance": "IP67",
+      "Battery Life": "7 Days"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Alberto Signature Clock",
+    "category": "Clocks",
+    "gender": "Kids",
+    "price": 58500,
+    "image": "images/alberto-signature-clock.jpg",
+    "tag": "Family Heritage",
+    "dial": "#f2dfb1",
+    "strap": "#5a4632",
+    "desc": "A warm, easy-to-read decorative wall clock bringing timeless Alberto horological charm to family spaces.",
+    "specs": {
+      "Movement": "High-Precision Quartz",
+      "Case": "Natural Oak & Brass / 32cm",
+      "Power": "1x AA Alkaline Battery"
+    }
+  }
+]

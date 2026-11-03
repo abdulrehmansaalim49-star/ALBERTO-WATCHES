@@ -1,0 +1,92 @@
+[
+  {
+    "id": 101,
+    "name": "Ocean Marble Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 25000,
+    "image": "images/ocean-marble-wall-clock.jpg",
+    "tag": "Handcrafted Marble",
+    "desc": "Deep ocean blue marble wall clock with genuine gold leaf veins and silent sweeping quartz mechanism.",
+    "specs": {
+      "Movement": "Silent Sweep Quartz (No Ticking)",
+      "Case": "Natural Marble & Brass / 35cm",
+      "Power": "1x AA Alkaline Battery"
+    }
+  },
+  {
+    "id": 102,
+    "name": "Black Elegance Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 22500,
+    "image": "images/black-elegance-wall-clock.jpg",
+    "tag": "Minimalist Obsidian",
+    "desc": "Matte obsidian dial with polished gold hands and hour markers, engineered for luxury office interiors.",
+    "specs": {
+      "Movement": "High-Torque German Quartz",
+      "Case": "Brushed Steel & Tempered Glass / 38cm",
+      "Power": "1x AA Alkaline Battery"
+    }
+  },
+  {
+    "id": 103,
+    "name": "White Marble Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 19500,
+    "image": "images/white-marble-wall-clock.jpg",
+    "tag": "Carrara Stone",
+    "desc": "Pure white Carrara marble wall clock adorned with minimalist brushed champagne gold hands.",
+    "specs": {
+      "Movement": "Silent Sweep Quartz",
+      "Case": "Solid Carrara Stone / 30cm",
+      "Power": "1x AA Alkaline Battery"
+    }
+  },
+  {
+    "id": 104,
+    "name": "Floral Gold Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 28000,
+    "image": "images/floral-gold-wall-clock.jpg",
+    "tag": "Artisanal Brass",
+    "desc": "Artisan crafted floral filigree wall clock in antique brushed gold finish with raised Roman numerals.",
+    "specs": {
+      "Movement": "Precision Horology Quartz",
+      "Case": "Wrought Iron & Gold Leaf / 45cm",
+      "Power": "1x AA Alkaline Battery"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Gold Marble Wall Clock",
+    "category": "Clocks",
+    "gender": "Men",
+    "price": 26500,
+    "image": "images/gold-marble-wall-clock.jpg",
+    "tag": "Regal Gold Vein",
+    "desc": "Warm amber and gold marble timepiece with hand-polished bevelled rim and gold-plated second hand.",
+    "specs": {
+      "Movement": "Silent Sweep Quartz",
+      "Case": "Engineered Stone & 18K Gilt / 40cm",
+      "Power": "1x AA Alkaline Battery"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Alberto Signature Clock",
+    "category": "Clocks",
+    "gender": "Kids",
+    "price": 58500,
+    "image": "images/alberto-signature-clock.jpg",
+    "tag": "Family Heritage",
+    "desc": "A warm, easy-to-read decorative wall clock bringing timeless Alberto horological charm to family spaces.",
+    "specs": {
+      "Movement": "High-Precision Quartz",
+      "Case": "Natural Oak & Brass / 32cm",
+      "Power": "1x AA Alkaline Battery"
+    }
+  }
+]

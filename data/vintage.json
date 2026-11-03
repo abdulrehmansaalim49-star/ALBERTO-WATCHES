@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Rolex Datejust 1968",
+    "category": "Vintage",
+    "gender": "Men",
+    "price": 2475000,
+    "image": "images/rolex-datejust-1968.jpg",
+    "tag": "Vintage Classic",
+    "dial": "#e8dcc0",
+    "strap": "#6b4a2b",
+    "desc": "Restored automatic Datejust with cream dial, fluted bezel and original patina.",
+    "specs": {
+      "Movement": "Automatic Cal. 1570",
+      "Case": "36 mm Steel",
+      "Water Resistance": "50 m",
+      "Power Reserve": "48 Hours"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bulova Accutron 214",
+    "category": "Vintage",
+    "gender": "Men",
+    "price": 348000,
+    "image": "images/bulova-accutron-214.jpg",
+    "tag": "Vintage Tuning-Fork",
+    "dial": "#2f4b6e",
+    "strap": "#222222",
+    "desc": "Classic tuning-fork Accutron from the 1970s, serviced and running with hum frequency.",
+    "specs": {
+      "Movement": "Tuning Fork Resonator",
+      "Case": "34 mm Gold-filled",
+      "Water Resistance": "30 m",
+      "Power Reserve": "Continuous Battery"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Alberto Kids Star",
+    "category": "Vintage",
+    "gender": "Kids",
+    "price": 19000,
+    "image": "images/alberto-kids-star.jpg",
+    "tag": "Classic Youth",
+    "dial": "#4b245c",
+    "strap": "#4b245c",
+    "desc": "A classic-inspired kids timepiece with clear legible dial, luminous hands and soft easy-fit strap.",
+    "specs": {
+      "Movement": "Quartz Calibre",
+      "Case": "32 mm Alloy",
+      "Water Resistance": "30 m",
+      "Power Reserve": "3-Year Battery"
+    }
+  }
+]

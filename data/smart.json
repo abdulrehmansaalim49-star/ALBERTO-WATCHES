@@ -1,0 +1,236 @@
+[
+  {
+    "id": 8,
+    "name": "Zero Italian Diver",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 52500,
+    "image": "images/zero-italian-diver.jpg",
+    "tag": "Diver Smart",
+    "dial": "#0d0d0d",
+    "strap": "#111111",
+    "desc": "Italian diving styling with ceramic-look bezel, luminous markers and Bluetooth fitness synchronisation.",
+    "specs": {
+      "Movement": "Hybrid Smart Quartz",
+      "Case": "44 mm Steel",
+      "Water Resistance": "IP68 / 50m",
+      "Battery Life": "14 Days"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Alberto Milanese Duo",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 64000,
+    "image": "images/alberto-milanese-duo.jpg",
+    "tag": "Executive Smart",
+    "dial": "#0b0b0b",
+    "strap": "#8c8c8c",
+    "desc": "Two-tone steel case with a fine mesh Milanese bracelet and an elegant high-resolution dial face.",
+    "specs": {
+      "Display": "1.32 in AMOLED",
+      "Case": "36 mm Steel Mesh",
+      "Water Resistance": "IP68 Waterproof",
+      "Battery Life": "10 Days"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Alberto Apex Smart",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 69500,
+    "image": "images/alberto-apex-smart.jpg",
+    "tag": "AMOLED Flagship",
+    "dial": "#07131a",
+    "strap": "#1e252b",
+    "desc": "Premium AMOLED smartwatch with continuous heart rate, blood oxygen sensor and precision alloy case.",
+    "specs": {
+      "Display": "1.45 in Super AMOLED",
+      "Case": "44 mm Aircraft Aluminium",
+      "Water Resistance": "5 ATM / 50m",
+      "Battery Life": "12 Days"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Alberto Track Pro",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 78000,
+    "image": "images/alberto-track-pro.jpg",
+    "tag": "Sport Precision",
+    "dial": "#071b26",
+    "strap": "#182a34",
+    "desc": "Sport-focused smartwatch with GPS route recording, biometric activity rings and always-on display.",
+    "specs": {
+      "Display": "1.50 in AMOLED Always-On",
+      "Case": "45 mm Matte Aluminium",
+      "Water Resistance": "5 ATM Water Resistance",
+      "Battery Life": "14 Days"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Alberto Pulse X",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 72000,
+    "image": "images/alberto-pulse-x.jpg",
+    "tag": "Health Pro",
+    "dial": "#151515",
+    "strap": "#555555",
+    "desc": "Advanced biometric watch with ECG pulse sensor, sleep phase analyzer and stainless steel bezel.",
+    "specs": {
+      "Display": "1.46 in Curved AMOLED",
+      "Case": "43 mm Steel & Ceramic",
+      "Water Resistance": "5 ATM",
+      "Battery Life": "10 Days"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Alberto Pulse Elite",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 61000,
+    "image": "images/alberto-pulse-elite.jpg",
+    "tag": "AMOLED Elite",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Premium round smartwatch with vivid AMOLED face and comfortable black sport silicone strap.",
+    "specs": {
+      "Display": "AMOLED Touchscreen",
+      "Case": "Premium Titanium Alloy",
+      "Connectivity": "Bluetooth 5.3 Calling",
+      "Water Resistance": "5 ATM"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Alberto Titanium Link Smart",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 66500,
+    "image": "images/alberto-titanium-link-smart.jpg",
+    "tag": "Titanium Mesh",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Bold smart timepiece with polished black metal bracelet and dynamic customizable dial styles.",
+    "specs": {
+      "Display": "1.43 in Ultra Retina",
+      "Case": "Titanium IP Steel",
+      "Connectivity": "Smart Notifications",
+      "Water Resistance": "5 ATM"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Alberto Sport Connect Pro",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 69500,
+    "image": "images/alberto-sport-connect-pro.jpg",
+    "tag": "Sport Pro",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Sporty connected watch with Bluetooth calling and high-contrast digital speedometer dial.",
+    "specs": {
+      "Display": "AMOLED High-Brightness",
+      "Case": "Impact Resistant Alloy",
+      "Connectivity": "GPS + Bluetooth Audio",
+      "Water Resistance": "5 ATM"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Alberto Urban 4G Smart",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 64000,
+    "image": "images/alberto-urban-4g-smart.jpg",
+    "tag": "Urban Edition",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Modern square smartwatch with clean interface and everyday connectivity styling.",
+    "specs": {
+      "Display": "1.78 in Edge-to-Edge",
+      "Case": "Brushed Aluminium",
+      "Connectivity": "4G LTE & WiFi",
+      "Water Resistance": "IP68"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Alberto Horizon 5G",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 78000,
+    "image": "images/alberto-horizon-5g.jpg",
+    "tag": "Horizon Tech",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Statement smartwatch with metallic case, vibrant display and flexible dark textured strap.",
+    "specs": {
+      "Display": "AMOLED 60Hz Smooth",
+      "Case": "Stainless Steel Composite",
+      "Connectivity": "Dual-Band GPS & Health Sensors",
+      "Water Resistance": "5 ATM"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Alberto Active Square",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 50000,
+    "image": "images/alberto-active-square.jpg",
+    "tag": "Active Life",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Lightweight square smartwatch with activity tracking and clear real-time fitness dashboard.",
+    "specs": {
+      "Display": "1.69 in Touch Screen",
+      "Case": "Lightweight Magnesium Alloy",
+      "Connectivity": "Heart & Sleep Tracking",
+      "Water Resistance": "IP68 Waterproof"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Alberto Icon Touch",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 47000,
+    "image": "images/alberto-icon-touch.jpg",
+    "tag": "Minimalist Smart",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Minimal black smartwatch with colourful app menu and easy-touch quick access bezel.",
+    "specs": {
+      "Display": "1.4 in HD Display",
+      "Case": "Durable Matte Composite",
+      "Connectivity": "Smart Assistant Sync",
+      "Water Resistance": "IP67"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Alberto Adventure Ultra",
+    "category": "Smart Watches",
+    "gender": "Men",
+    "price": 83500,
+    "image": "images/alberto-adventure-ultra.jpg",
+    "tag": "Extreme Explorer",
+    "dial": "#07131a",
+    "strap": "#17191c",
+    "desc": "Rugged sport smartwatch with orange performance alpine loop and dual-frequency GPS.",
+    "specs": {
+      "Display": "2.0 in Sapphire Touchscreen",
+      "Case": "Titanium Armor 49mm",
+      "Connectivity": "Siren + Compass + Dive App",
+      "Water Resistance": "100m Dive Rated"
+    }
+  }
+]
