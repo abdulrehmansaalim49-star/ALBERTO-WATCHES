@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alberto Watch Company | Luxury Timepieces, Appraisal &amp; Retail</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- INTRO: ring draws, ticks pop, hands spin, name reveals, curtains part -->
+<div id="intro">
+  <div class="curtain l"></div><div class="curtain r"></div>
+  <div class="stage">
+    <svg id="introSvg" viewBox="0 0 400 400" aria-label="Watch opening animation">
+      <circle class="ring" pathLength="1" cx="200" cy="200" r="190" transform="rotate(-90 200 200)"/>
+      <circle class="ring r2" pathLength="1" cx="200" cy="200" r="168" transform="rotate(-90 200 200)"/>
+      <g id="ticks"></g>
+      <line id="ihour" class="ih" x1="200" y1="200" x2="200" y2="125"/>
+      <line id="imin" class="ih" x1="200" y1="200" x2="200" y2="82"/>
+      <circle cx="200" cy="200" r="7" fill="#fff"/>
+    </svg>
+    <h1 id="introWord" aria-label="Alberto"></h1>
+    <p id="introMsg">WATCH COMPANY</p>
+  </div>
+  <button id="skipBtn" class="btn btn-sm btn-outline-light">Skip intro</button>
+</div>
+
+<!-- HEADER (With Luxury Shopping Bag & Visitors Counter) -->
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand brand luxury-brand" href="#home" data-page="home" aria-label="Alberto Watches Home">
+        <svg class="crown-mark" width="42" height="32" viewBox="0 0 64 48" aria-hidden="true">
+          <path d="M6 11l12 15 14-20 14 20 12-15-5 28H11L6 11z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M10 41h44" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-wordmark"><strong>ALBERTO</strong><small>WATCHES</small></span>
+      </a>
+      <button class="navbar-toggler" id="navToggle" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div id="menu" class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto">
+          <li><a class="nav-link" href="#home" data-page="home">Home</a></li>
+          <li><a class="nav-link" href="#products" data-page="products">Products</a></li>
+          <li><a class="nav-link" href="#pricelist" data-page="pricelist">Price List</a></li>
+          <li><a class="nav-link" href="#technology" data-page="technology">Technology</a></li>
+          <li><a class="nav-link" href="#gallery" data-page="gallery">Gallery</a></li>
+          <li><a class="nav-link" href="#locator" data-page="locator">Store Locator</a></li>
+          <li><a class="nav-link" href="#support" data-page="support">Support</a></li>
+          <li><a class="nav-link" href="#about" data-page="about">About</a></li>
+          <li><a class="nav-link" href="#contact" data-page="contact">Contact</a></li>
+        </ul>
+        <div class="header-actions">
+          <!-- Shopping Bag Button (Header Bag Icon For Checkout) -->
+          <button id="headerBagBtn" class="header-bag-btn" type="button" aria-label="View Shopping Bag and Checkout">
+            <svg class="bag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="bag-label">Bag</span>
+            <span id="headerBagCount" class="bag-count-badge">0</span>
+          </button>
+          <!-- Visitor Counter -->
+          <div class="visitors">Visitors: <strong id="visitCount">0</strong></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<nav class="crumb-bar" aria-label="Breadcrumb"><div class="container"><ol class="crumb" id="breadcrumb"></ol></div></nav>
+
+<main>
+  <!-- HOME SECTION -->
+  <section id="home" class="page">
+    <div class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Repair · Appraisal · Retail</p>
+          <h1>Every second, <em>crafted</em>.</h1>
+          <p class="lead">Rolex, Citizen Eco-Drive, Bulova, Michael Kors and rare vintage pieces, serviced and guaranteed by Alberto Watch Company.</p>
+          <div class="hero-cta-group">
+            <a href="#products" data-page="products" class="btn btn-gold btn-lg">Explore the collection</a>
+            <a href="#locator" data-page="locator" class="btn btn-ghost btn-lg">Find a store</a>
+          </div>
+        </div>
+        <div class="hero-watch hero-video-wrap">
+          <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="images/men-luxury-02.png" aria-label="Alberto luxury watches showcase video">
+            <source src="images/alberto-luxury-hero.mp4" type="video/mp4">
+          </video>
+          <div class="hero-video-frame"></div>
+          <div class="hero-video-caption"><span>ALBERTO WATCHES</span><small>THE LUXURY COLLECTION</small></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIGNATURE SERVICES -->
+    <div class="container signature-services">
+      <div class="service-intro">
+        <p class="eyebrow">The Alberto standard</p>
+        <h2>More than a timepiece.</h2>
+        <p>Every visit is built around careful selection, honest appraisal and precision after-sales care in our cleanroom atelier.</p>
+      </div>
+      <div class="service-card"><img class="service-photo" src="images/alberto-chronograph-support-poster.jpg" alt="Repair"><span>01</span><div><strong>Repair</strong><small>Precision servicing, ultrasonic wash &amp; restoration</small></div></div>
+      <div class="service-card"><img class="service-photo" src="images/richard-mille-red-chronograph.jpg" alt="Appraisal"><span>02</span><div><strong>Appraisal</strong><small>Professional valuation certificates &amp; authenticity checks</small></div></div>
+      <div class="service-card"><img class="service-photo" src="images/alberto-heritage-gold.jpg" alt="Retail"><span>03</span><div><strong>Retail</strong><small>Curated Swiss luxury, smart watches &amp; vintage pieces</small></div></div>
+    </div>
+
+    <!-- HOROLOGICAL STATS -->
+    <div class="container stats">
+      <div><b>37+</b><span>years of horological heritage</span></div>
+      <div><b>15K+</b><span>fine timepieces serviced</span></div>
+      <div><b>100%</b><span>authenticity certified</span></div>
+      <div><b>03</b><span>flagship boutiques in Pakistan</span></div>
+    </div>
+
+    <!-- HOME CONTENT: CURATED LINE-UPS OVERVIEW -->
+    <div class="container home-showcase-section">
+      <div class="section-intro-block text-center mx-auto" style="max-width: 720px; margin-bottom: 2.5rem;">
+        <p class="eyebrow">CURATED HOROLOGY FOR EVERY DISCERNING WRIST</p>
+        <h2>Our Signature <em>Line-ups.</em></h2>
+        <p style="color: #aaa397; line-height: 1.8;">From hand-wound Swiss tourbillons and certified chronometers to connected sensor displays and artisanal wall clocks, Alberto presents timepieces of enduring significance.</p>
+      </div>
+
+      <div class="home-lineup-grid">
+        <a href="#products" data-page="products" data-cat="Luxury" class="lineup-card">
+          <div class="lineup-photo"><img src="images/rolex-submariner-date.jpg" alt="Luxury watch" loading="lazy"></div>
+          <span>LINE-UP 01</span>
+          <h3>Luxury</h3>
+          <p>Rolex Submariner, Day-Date 40 President, Sky-Dweller, and Master Flying Tourbillons.</p>
+          <div class="lineup-cta">EXPLORE LUXURY <span>→</span></div>
+        </a>
+        <a href="#products" data-page="products" data-cat="Vintage" class="lineup-card">
+          <div class="lineup-photo"><img src="images/bulova-accutron-214.jpg" alt="Vintage watch" loading="lazy"></div>
+          <span>LINE-UP 02</span>
+          <h3>Vintage</h3>
+          <p>Rare restored 1968 Datejust, Bulova Accutron tuning-fork, and mid-century classics.</p>
+          <div class="lineup-cta">EXPLORE VINTAGE <span>→</span></div>
+        </a>
+        <a href="#products" data-page="products" data-cat="Smart Watches" class="lineup-card">
+          <div class="lineup-photo"><img src="images/alberto-pulse-elite.jpg" alt="Smart watch" loading="lazy"></div>
+          <span>LINE-UP 03</span>
+          <h3>Smart Watches</h3>
+          <p>AMOLED sensor arrays, titanium dive cases, ECG pulse monitors, and kids connected models.</p>
+          <div class="lineup-cta">EXPLORE SMART <span>→</span></div>
+        </a>
+        <a href="#products" data-page="products" data-cat="Clocks" class="lineup-card">
+          <div class="lineup-photo"><img src="images/ocean-marble-wall-clock.jpg" alt="Wall clock" loading="lazy"></div>
+          <span>LINE-UP 04</span>
+          <h3>Clocks Collection</h3>
+          <p>Natural Carrara marble, obsidian quartz wall clocks, and family heritage timepieces.</p>
+          <div class="lineup-cta">EXPLORE CLOCKS <span>→</span></div>
+        </a>
+      </div>
+
+      <!-- HOME CONTENT: MASTER ATELIER BENCHMARK BANNER -->
+      <div class="home-feature-banner mt-5">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <p class="eyebrow">SWISS-CERTIFIED WATCHMAKERS</p>
+            <h2 style="font-size: clamp(2.2rem, 4.2vw, 3.8rem); line-height: 1.05; margin: 12px 0 18px;">Preserving the pulse <em>of horology.</em></h2>
+            <p style="color: #b9b3a6; font-size: .95rem; line-height: 1.85; max-width: 580px;">
+              Alberto Watch Company operates state-of-the-art diagnostic and repair facilities in Karachi, Lahore, and Islamabad. Every timepiece is examined by our master watchmakers for water resistance, amplitude, beat error, and escapement integrity.
+            </p>
+            <div class="d-flex flex-wrap gap-4 mt-4">
+              <div>
+                <strong style="color: var(--gold2); font-family: 'Cormorant Garamond', serif; font-size: 2rem;">5-Year</strong>
+                <small style="display: block; color: #8f897e; font-size: .72rem; letter-spacing: .12em;">INTERNATIONAL WARRANTY</small>
+              </div>
+              <div>
+                <strong style="color: var(--gold2); font-family: 'Cormorant Garamond', serif; font-size: 2rem;">300M</strong>
+                <small style="display: block; color: #8f897e; font-size: .72rem; letter-spacing: .12em;">HYDRO PRESSURE TESTED</small>
+              </div>
+              <div>
+                <strong style="color: var(--gold2); font-family: 'Cormorant Garamond', serif; font-size: 2rem;">0.02s</strong>
+                <small style="display: block; color: #8f897e; font-size: .72rem; letter-spacing: .12em;">CHRONOMETRIC ACCURACY</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center">
+            <div style="background: rgba(0,0,0,.5); border: 1px solid rgba(201,164,92,.35); padding: 24px; border-radius: 4px;">
+              <span class="eyebrow">LIVE TIMEPIECE SHOWCASE</span>
+              <img class="showcase-photo" src="images/cover-showcase.jpg" alt="Alberto signature timepiece">
+              <p style="color: #c9ad70; font-size: .72rem; letter-spacing: .2em; margin-bottom: 0;">ALBERTO IN-HOUSE AUTOMATIC MOVEMENT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HOME CONTENT: VIP CLIENT & COLLECTOR REVIEWS -->
+      <div class="home-reviews-wrap">
+        <div class="text-center mb-4">
+          <p class="eyebrow">CLIENT SATISFACTION &amp; TRUST</p>
+          <h2>Words from our <em>patrons.</em></h2>
+        </div>
+        <div class="home-testimonials-strip">
+          <div class="testimonial-card">
+            <p>“Purchasing my Rolex Day-Date through Alberto was a masterclass in luxury service. Their provenance documentation and appraisal support are without peer in Pakistan.”</p>
+            <div class="testimonial-author">
+              <img class="testimonial-photo" src="images/rolex-day-date-40.jpg" alt="Rolex Day-Date" loading="lazy">
+              <div><strong>Tariq Mansoor</strong>
+              <small>PRIVATE COLLECTOR · KARACHI</small></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <p>“The horological restoration on my grandfather's 1968 Datejust was miraculous. It keeps precise time to within 2 seconds per day. Truly master watchmakers.”</p>
+            <div class="testimonial-author">
+              <img class="testimonial-photo" src="images/rolex-datejust-1968.jpg" alt="Rolex Datejust 1968" loading="lazy">
+              <div><strong>Dr. Hamza Siddiqui</strong>
+              <small>HERITAGE CLIENT · LAHORE</small></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <p>“From the Citizen Eco-Drive satellite watch to the stunning Ocean Marble wall clock in my executive suite, Alberto delivers perfection and authentic luxury.”</p>
+            <div class="testimonial-author">
+              <img class="testimonial-photo" src="images/ocean-marble-wall-clock.jpg" alt="Ocean Marble wall clock" loading="lazy">
+              <div><strong>Shahryar Khan</strong>
+              <small>MANAGING DIRECTOR · ISLAMABAD</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS SECTION -->
+  <section id="products" class="page light">
+  <div class="page-cover">
+      <div class="page-cover-shade"></div>
+      <div class="page-cover-content">
+        <p class="eyebrow">SHOP BY STYLE</p>
+        <h2>SFind the watch<br><em>that is yours</em></h2>
+        <p>Luxury, vintage and smart timepieces and wall clocks for Men, Women and Kids, all in one collection.</p>
+        <a href="#pricelist" data-page="pricelist" class="about-gold-link">SEE THE PRICE LIST <span>↗</span></a>
+      </div>
+      <div class="page-cover-photo"><img src="images/cover-products.jpg" alt="Shop By Style"><span>THE COLLECTION</span></div>
+    </div>
+    <div class="container">
+      <div class="collection-intro">
+        <p class="eyebrow">COLLECTIONS FOR EVERY WRIST</p>
+        <h2>Products</h2>
+        <p class="section-intro">Explore the Men, Women and Kids collections, then choose a watch line-up to see only matching products. Click any watch for specifications, or click <strong>ADD TO CART</strong> to purchase.</p>
+      </div>
+      <div id="genderFilters" class="collection-tabs mb-3" aria-label="Shop by collection"></div>
+      <div id="filters" class="mb-4" aria-label="Filter by watch line-up"></div>
+      
+      <!-- Dynamic Products Grid -->
+      <div id="productGrid" class="row g-4"></div>
+
+      <!-- Clock Collection Block -->
+      <div class="clock-collection-block mt-5">
+        <div class="collection-intro clock-intro">
+          <p class="eyebrow">AFTER THE WRIST</p>
+          <h3>Clock Collection</h3>
+          <p class="section-intro">Bring Alberto craftsmanship into your home and workspace with our dedicated natural marble and obsidian wall clocks.</p>
+        </div>
+        <div id="clockGrid" class="row g-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICE LIST SECTION (In Pakistani Rupees - PKR) -->
+  <section id="pricelist" class="page light">
+  <div class="page-cover">
+      <div class="page-cover-shade"></div>
+      <div class="page-cover-content">
+        <p class="eyebrow">TRANSPARENT PRICING</p>
+        <h2>Honest prices,<br><em>in every rupee.</em></h2>
+        <p>Every Alberto timepiece is listed in Pakistani Rupees (PKR). Search and filter by collection or audience.</p>
+        <a href="#products" data-page="products" class="about-gold-link">SHOP THE COLLECTION <span>↗</span></a>
+      </div>
+      <div class="page-cover-photo"><img src="images/cover-pricelist.jpg" alt="Transparent Pricing"><span>PKR PRICE GUIDE</span></div>
+    </div>
+    <div class="container price-page">
+      <div class="price-hero">
+        <div class="price-hero-copy">
+          <p class="eyebrow">THE ALBERTO OFFICIAL PRICE GUIDE</p>
+          <h2>Exceptional timepieces.<br><em>Clear, considered pricing.</em></h2>
+          <p class="section-intro">Explore our complete horological catalogue by model, line-up, or price. Every piece is listed in Pakistani Rupees (PKR) with authentic manufacturer certification.</p>
+          <div class="price-hero-notes">
+            <span>✧ Curated Swiss &amp; Global Collections</span>
+            <span>◇ All Prices in Pakistani Rupees (PKR)</span>
+            <span>★ Includes 5-Year Alberto Guarantee</span>
+          </div>
+        </div>
+      </div>
+      <div class="price-stat-row">
+        <div><span class="price-stat-label">COLLECTIONS</span><strong>04</strong><small>Luxury · Vintage · Smart · Clocks</small></div>
+        <div><span class="price-stat-label">FOR EVERY GENERATION</span><strong>Men · Women · Kids</strong><small>Thoughtfully grouped selections</small></div>
+        <div><span class="price-stat-label">PRICING CURRENCY</span><strong>Pakistani Rupee</strong><small>Listed transparently in PKR (Rs.)</small></div>
+      </div>
+      <div class="price-tools">
+        <div>
+          <p class="eyebrow">FIND YOUR TIMEPIECE</p>
+          <h3>Collection price list</h3>
+        </div>
+        <div class="price-controls">
+          <input id="priceSearch" type="search" class="form-control" placeholder="Search by watch name or calibre…" aria-label="Search watches">
+          <select id="priceCategory" class="form-select" aria-label="Filter by collection">
+            <option value="All">All collections</option>
+            <option>Luxury</option>
+            <option>Vintage</option>
+            <option>Smart Watches</option>
+            <option>Clocks</option>
+          </select>
+          <select id="priceGender" class="form-select" aria-label="Filter by audience">
+            <option value="All">Everyone</option>
+            <option>Men</option>
+            <option>Women</option>
+            <option>Kids</option>
+          </select>
+        </div>
+      </div>
+      <div class="price-table-shell">
+        <div class="price-table-topline">
+          <span>ALBERTO HOROLOGICAL CATALOGUE</span>
+          <span id="priceCount">Complete collection</span>
+        </div>
+        <div class="table-responsive">
+          <table class="table align-middle price-table">
+            <thead>
+              <tr>
+                <th>TIMEPIECE</th>
+                <th>COLLECTION</th>
+                <th>AUDIENCE</th>
+                <th class="text-end">PRICE (PKR)</th>
+                <th class="text-center">ACTION</th>
+              </tr>
+            </thead>
+            <tbody id="priceBody"></tbody>
+          </table>
+        </div>
+        <div id="priceEmpty" class="price-empty" hidden>No timepieces match those filters. Try another search.</div>
+      </div>
+      <p class="price-footnote">Prices are shown in Pakistani Rupees (PKR) for catalogue presentation and include import appraisal duties and Alberto 5-Year Atelier Warranty. Contact our Karachi or Lahore boutiques for immediate stock reservation.</p>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGY SECTION -->
+  <section id="technology" class="page">
+  <div class="page-cover">
+      <div class="page-cover-shade"></div>
+      <div class="page-cover-content">
+        <p class="eyebrow">MOVEMENTS &amp; MATERIALS</p>
+        <h2>Precision you<br><em>can feel.</em></h2>
+        <p>From hand-wound tourbillons to solar quartz and AMOLED sensors, see what drives each timepiece.</p>
+      </div>
+      <div class="page-cover-photo"><img src="images/cover-technology.jpg" alt="Movements &Amp; Materials"><span>SWISS · SOLAR · SMART</span></div>
+    </div>
+    <div class="container editorial-page">
+      <div class="editorial-heading">
+        <p class="eyebrow">ENGINEERING THE MOMENT</p>
+        <h2>Technology, <em>with purpose.</em></h2>
+        <p>Every movement follows a different philosophy. Discover the mechanics, precision escapements and connected sensor features behind the timepieces in the Alberto collection.</p>
+      </div>
+      <div class="tech-intro-line"><span>ALBERTO HOROLOGY NOTES</span><span>01 — 04</span></div>
+      <div class="tech-feature-grid">
+        <article class="tech-feature">
+          <span class="feature-no">01</span>
+          <span class="feature-symbol">◷</span>
+          <div>
+            <p class="eyebrow">MECHANICAL MOVEMENTS</p>
+            <h3>Automatic &amp; Tourbillon</h3>
+            <p>A weighted rotor responds to the movement of your wrist, winding a mainspring that powers the escapement. Flying tourbillons counter the effect of Earth's gravity on timekeeping.</p>
+            <ul>
+              <li>No battery replacement needed</li>
+              <li>70+ hour power reserve calibres</li>
+              <li>Periodic ultrasonic lubrication preserves performance</li>
+            </ul>
+          </div>
+        </article>
+        <article class="tech-feature">
+          <span class="feature-no">02</span>
+          <span class="feature-symbol">✧</span>
+          <div>
+            <p class="eyebrow">ACCURACY &amp; EFFICIENCY</p>
+            <h3>Citizen Eco-Drive Solar</h3>
+            <p>Harnesses natural and artificial light to power high-frequency quartz resonators, with continuous battery reserves lasting up to 5 years in total darkness.</p>
+            <ul>
+              <li>Ultra-low maintenance timekeeping</li>
+              <li>Light-powered system eliminates toxic batteries</li>
+              <li>Atomic GPS satellite synchronization</li>
+            </ul>
+          </div>
+        </article>
+        <article class="tech-feature">
+          <span class="feature-no">03</span>
+          <span class="feature-symbol">⌁</span>
+          <div>
+            <p class="eyebrow">CONNECTED LIVING</p>
+            <h3>Smart Sensors &amp; AMOLED</h3>
+            <p>High-contrast digital displays paired with optical PPG heart-rate, blood oxygen, and altimeter sensors housed in Grade 5 aircraft titanium.</p>
+            <ul>
+              <li>Bluetooth 5.3 calling &amp; smartphone pairing</li>
+              <li>5 ATM / IP68 water submersion certification</li>
+              <li>Over-the-air firmware updates via companion app</li>
+            </ul>
+          </div>
+        </article>
+        <article class="tech-feature">
+          <span class="feature-no">04</span>
+          <span class="feature-symbol">◇</span>
+          <div>
+            <p class="eyebrow">HOME &amp; EXECUTIVE DESK</p>
+            <h3>Artisanal Clock Mechanisms</h3>
+            <p>German silent-sweep quartz movements mounted in natural Carrara marble, wrought brass, and obsidian stone for noiseless, dignified room timekeeping.</p>
+            <ul>
+              <li>Continuous silent sweep (zero audible ticking)</li>
+              <li>Single AA battery operates up to 36 months</li>
+              <li>Diamond-cut bevelled glass lens protection</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="editorial-note">
+        <span>THE ALBERTO STANDARD</span>
+        <p>Specifications, water resistance ratings, and calibres differ between individual models. For movement testing or custom appraisal, contact our master horologist team.</p>
+        <a href="#contact" data-page="contact">ASK OUR TEAM ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="page">
+  <div class="page-cover">
+      <div class="page-cover-shade"></div>
+      <div class="page-cover-content">
+        <p class="eyebrow">THE VISUAL ARCHIVE</p>
+        <h2>Every detail,<br><em>in focus.</em></h2>
+        <p>Browse the Alberto collection photo by photo and open any watch for its full details.</p>
+      </div>
+      <div class="page-cover-photo"><img src="images/cover-gallery.jpg" alt="The Visual Archive"><span>PHOTO GALLERY</span></div>
+    </div>
+    <div class="container editorial-page">
+      <div class="editorial-heading">
+        <p class="eyebrow">THE ALBERTO COLLECTION</p>
+        <h2>Details that define<br><em>your style.</em></h2>
+        <p>Explore the character of our collections through design, movement and purpose. Discover Men's, Women's and Kids' collections with dedicated photography across luxury and smart watch styles.</p>
+      </div>
+      <div class="gallery-text-grid">
+        <article>
+          <span>01 / CLASSIC</span>
+          <h3>Timeless design</h3>
+          <p>Balanced proportions, refined fluted bezels, sunray dials and versatile silhouettes made for everyday elegance.</p>
+          <a href="#products" data-page="products">EXPLORE PRODUCTS ↗</a>
+        </article>
+        <article>
+          <span>02 / MODERN</span>
+          <h3>Connected living</h3>
+          <p>Smart health features, active biometric sensors and durable aircraft-grade alloy frames for modern routines.</p>
+          <a href="#products" data-page="products">EXPLORE PRODUCTS ↗</a>
+        </article>
+        <article>
+          <span>03 / HERITAGE</span>
+          <h3>Character &amp; craft</h3>
+          <p>Distinctive vintage details, skeleton tourbillons and hand-crafted stone dials for seasoned collectors.</p>
+          <a href="#products" data-page="products">EXPLORE PRODUCTS ↗</a>
+        </article>
+      </div>
+
+      <!-- GALLERY CARDS (images come from data/products.json) -->
+      <div class="gallery-cards-block">
+        <p class="eyebrow">PHOTO GALLERY</p>
+        <h3 class="gallery-cards-title">Browse every <em>timepiece.</em></h3>
+        <div id="galleryFilters" class="gallery-filters" aria-label="Filter gallery"></div>
+        <div id="galleryGrid" class="row g-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORE LOCATOR SECTION -->
+  <section id="locator" class="page">
+  <div class="page-cover">
+      <div class="page-cover-shade"></div>
+      <div class="page-cover-content">
+        <p class="eyebrow">VISIT A BOUTIQUE</p>
+        <h2>Three salons,<br><em>one standard.</em></h2>
+        <p>Karachi, Lahore and Islamabad: view, repair and appraise your timepiece in person.</p>
+        <a href="#contact" data-page="contact" class="about-gold-link">CONTACT ALBERTO <span>↗</span></a>
+      </div>
+      <div class="page-cover-photo"><img src="images/cover-locator.jpg" alt="Visit A Boutique"><span>KARACHI · LAHORE · ISLAMABAD</span></div>
+    </div>
+    <div class="container editorial-page">
+      <div class="editorial-heading">
+        <p class="eyebrow">FIND YOUR ALBERTO</p>
+        <h2>Personal service.<br><em>Closer to you.</em></h2>
+        <p>Choose a location for collection viewings, master repair guidance and appraisal support. Please contact the store before travelling to confirm private salon appointments.</p>
+      </div>
+      <div class="locator-toolbar"><span>STORE DIRECTORY</span><span>PAKISTAN · 03 BOUTIQUE LOCATIONS</span></div>
+      <div class="store-list">
+        <article class="store-card">
+          <div class="store-index">01</div>
+          <div class="store-main">
+            <p class="eyebrow">SINDH FLAGSHIP</p>
+            <h3>Karachi Flagship</h3>
+            <p class="store-address">Dolmen Mall, Clifton &amp; Main Beach Avenue, Karachi</p>
+            <div class="store-tags"><span>Retail</span><span>Master Repairs</span><span>Certified Appraisals</span></div>
+          </div>
+          <div class="store-hours">
+            <span>OPENING HOURS</span>
+            <strong>Daily</strong>
+            <p>11:00 AM – 10:00 PM</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Dolmen+Mall+Clifton+Karachi" target="_blank" rel="noopener">GET DIRECTIONS ↗</a>
+          </div>
+        </article>
+        <article class="store-card">
+          <div class="store-index">02</div>
+          <div class="store-main">
+            <p class="eyebrow">PUNJAB HOROLOGY GALLERY</p>
+            <h3>Lahore Salon</h3>
+            <p class="store-address">MM Alam Road, Gulberg III, Lahore</p>
+            <div class="store-tags"><span>Retail</span><span>Repairs</span><span>Appraisals</span></div>
+          </div>
+          <div class="store-hours">
+            <span>OPENING HOURS</span>
+            <strong>Monday – Saturday</strong>
+            <p>10:00 AM – 9:00 PM</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=MM+Alam+Road+Gulberg+Lahore" target="_blank" rel="noopener">GET DIRECTIONS ↗</a>
+          </div>
+        </article>
+        <article class="store-card">
+          <div class="store-index">03</div>
+          <div class="store-main">
+            <p class="eyebrow">CAPITAL REGION</p>
+            <h3>Islamabad Boutique</h3>
+            <p class="store-address">Blue Area, Jinnah Avenue, Islamabad</p>
+            <div class="store-tags"><span>Retail</span><span>Repairs</span><span>Appraisals</span></div>
+          </div>
+          <div class="store-hours">
+            <span>OPENING HOURS</span>
+            <strong>Monday – Saturday</strong>
+            <p>10:00 AM – 8:00 PM</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Blue+Area+Jinnah+Avenue+Islamabad" target="_blank" rel="noopener">GET DIRECTIONS ↗</a>
+          </div>
+        </article>
+      </div>
+      <div class="locator-help">
+        <div>
+          <p class="eyebrow">NEED ASSISTANCE?</p>
+          <h3>Not sure which salon to visit?</h3>
+          <p>Send our client concierge your inquiry and we will arrange a personalized VIP appointment.</p>
+        </div>
+        <a class="about-contact-button" href="#contact" data-page="contact">CONTACT ALBERTO ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPPORT SECTION -->
+  <section id="support" class="page">
+    <div class="container editorial-page">
+      <section class="support-feature-video" aria-label="Chronograph watch video">
+        <div class="support-video-frame">
+          <video controls autoplay muted loop playsinline preload="auto" poster="images/alberto-chronograph-support-poster.jpg" aria-label="Chronograph wristwatch mechanism video">
+            <source src="images/alberto-chronograph-support.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="support-video-label"><span>ALBERTO WATCHMAKING</span><small>CHRONOGRAPH · PRECISION IN MOTION</small></div>
+        </div>
+        <div class="support-video-copy">
+          <p class="eyebrow">INSIDE THE CRAFT</p>
+          <h3>Precision, in every second.</h3>
+          <p>Explore the fine details of our mechanical chronographs, where Swiss gears, column wheels and hand-polished bridges unite.</p>
+          <a href="#contact" data-page="contact" class="btn btn-gold">Ask our care team</a>
+        </div>
+      </section>
+      <div class="support-service-row">
+        <div>
+          <span>01</span>
+          <h3>Repair &amp; Servicing</h3>
+          <p>Describe the issue and bring your timepiece to any Alberto boutique. Comprehensive disassembly, ultrasonic bath, Swiss oiling, and calibration.</p>
+        </div>
+        <div>
+          <span>02</span>
+          <h3>Certified Appraisals</h3>
+          <p>Official valuation documents recognized by insurance underwriters, estate managers, and collectors with serial authenticity validation.</p>
+        </div>
+        <div>
+          <span>03</span>
+          <h3>Warranty &amp; Guarantee</h3>
+          <p>Every timepiece sold by Alberto carries our 5-Year comprehensive coverage against mechanical defects and water resistance seal integrity.</p>
+        </div>
+      </div>
+      <div class="support-faq-heading">
+        <p class="eyebrow">HELPFUL HOROLOGY ANSWERS</p>
+        <h3>Frequently asked questions</h3>
+      </div>
+      <div id="faq" class="premium-faq">
+        <details>
+          <summary><span>01</span> How do I arrange an official watch repair?</summary>
+          <p>Contact or visit your nearest Alberto store in Karachi, Lahore, or Islamabad with the watch. Our master horologists provide a free diagnostic assessment within 24 hours.</p>
+        </details>
+        <details>
+          <summary><span>02</span> How long does full movement servicing take?</summary>
+          <p>Simple battery and gasket seal work is completed within 45 minutes. Complete mechanical overhauls generally take 3 to 7 working days depending on parts.</p>
+        </details>
+        <details>
+          <summary><span>03</span> Can Alberto provide official insurance appraisals?</summary>
+          <p>Yes. Bring the timepiece with its original box or papers. We issue formal valuation certificates containing serial verification, gold purity, and replacement value.</p>
+        </details>
+        <details>
+          <summary><span>04</span> Are all Alberto timepieces priced in Pakistani Rupees?</summary>
+          <p>Yes. All prices in our official store and online catalogue are transparently displayed in Pakistani Rupees (PKR), inclusive of all certified import inspections.</p>
+        </details>
+        <details>
+          <summary><span>05</span> How should I care for my automatic timepiece?</summary>
+          <p>Keep your watch away from intense magnetic fields (speakers, MRI). Ensure screw-down crowns are securely closed before water contact, and service every 4 to 5 years.</p>
+        </details>
+        <details>
+          <summary><span>06</span> What support is provided for Smart Watches?</summary>
+          <p>Our smart series includes full 2-year hardware replacement, pairing support for iOS and Android, and replacement charging cables at all boutiques.</p>
+        </details>
+      </div>
+      <div class="editorial-note">
+        <span>WE’RE HERE TO HELP</span>
+        <p>For model-specific advice, please include your watch model name and a brief description of your question.</p>
+        <a href="#contact" data-page="contact">CONTACT SUPPORT ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+  <section id="about" class="page about-page">
+    <div class="about-cover">
+      <div class="about-cover-shade"></div>
+      <div class="about-cover-content">
+        <p class="eyebrow">A CONSIDERED APPROACH TO TIME</p>
+        <h2>Made for moments<br><em>that matter.</em></h2>
+        <p>Discover the Alberto point of view: timeless Swiss design, thoughtful appraisal and an enduring passion for horological preservation.</p>
+        <a href="#products" data-page="products" class="about-gold-link">EXPLORE THE COLLECTION <span>↗</span></a>
+      </div>
+      <div class="about-cover-photo"><img src="images/about-cover.jpg" alt="Alberto signature timepiece"><span>EST. 1987</span></div>
+    </div>
+    <div class="container about-content">
+      <div class="about-intro-grid">
+        <div>
+          <p class="eyebrow">THE ALBERTO STORY</p>
+          <h2>More than a way<br>to tell time.</h2>
+        </div>
+        <div class="about-intro-copy">
+          <p class="about-lead">At Alberto, we believe a timepiece is a marker of identity — chosen for its character, cherished through generations, and passed down as an heirloom.</p>
+          <p>Founded in 1987, Alberto Watch Company brings together the enduring appeal of Rolex, Bulova, and Citizen Eco-Drive alongside rare vintage finds, connected smart sensors, and artisanal wall clocks.</p>
+        </div>
+      </div>
+      <div class="about-values">
+        <article>
+          <span class="about-number">01</span>
+          <div class="about-value-icon">✦</div>
+          <h3>Curated with character</h3>
+          <p>A considered mix of rare vintage mechanicals, Swiss chronometers, smart fitness monitors, and decorative clocks.</p>
+        </article>
+        <article>
+          <span class="about-number">02</span>
+          <div class="about-value-icon">◷</div>
+          <h3>Master atelier care</h3>
+          <p>Certified repair, precision ultrasonic washing, and official valuation certificates keep your prized collection in rotation.</p>
+        </article>
+        <article>
+          <span class="about-number">03</span>
+          <div class="about-value-icon">◇</div>
+          <h3>Personal by design</h3>
+          <p>Dedicated collections for Men, Women and Kids, offering each generation timepieces crafted for comfort, style and longevity.</p>
+        </article>
+      </div>
+      <div class="about-service-band">
+        <div>
+          <p class="eyebrow">THE ALBERTO EXPERIENCE</p>
+          <h2>Choose with confidence.<br><em>Wear it your way.</em></h2>
+        </div>
+        <div class="about-service-items">
+          <span><b>01</b> 100% Genuine Certified Timepieces</span>
+          <span><b>02</b> Official Appraisals &amp; Restoration</span>
+          <span><b>03</b> Transparent Pakistani Rupee (PKR) Pricing</span>
+        </div>
+      </div>
+      <div class="team-block">
+        <p class="eyebrow">THE PEOPLE BEHIND ALBERTO</p>
+        <h2>Meet our <em>team.</em></h2>
+        <div id="teamGrid" class="team-grid"></div>
+      </div>
+      <div class="about-contact-strip">
+        <div>
+          <p class="eyebrow">START A CONVERSATION</p>
+          <h3>We’re here for your next chapter.</h3>
+          <p>For collection inquiries, repair appointments or valuation support, our team is at your service.</p>
+        </div>
+        <div class="about-contact-details">
+          <a href="mailto:info@albertowatch.com">info@albertowatch.com</a>
+          <span>Clifton Block 4, Karachi · MM Alam Road, Lahore · Blue Area, Islamabad</span>
+          <a href="tel:+92511234567">+92 21 111 222 333 / +92 51 1234567</a>
+          <a href="#contact" data-page="contact" class="about-contact-button">CONTACT ALBERTO <span>↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT US SECTION (With Aptech Shahrah-e-Faisal Map & Form Validation) -->
+  <section id="contact" class="page">
+  <div class="page-cover">
+      <div class="page-cover-shade"></div>
+      <div class="page-cover-content">
+        <p class="eyebrow">WE ARE LISTENING</p>
+        <h2>Your timepiece,<br><em>our attention.</em></h2>
+        <p>Ask about a collection, repair or appraisal and our team will reply within 2 hours.</p>
+      </div>
+      <div class="page-cover-photo"><img src="images/cover-contact.jpg" alt="We Are Listening"><span>ALBERTO CONCIERGE</span></div>
+    </div>
+    <div class="container editorial-page">
+      <div class="editorial-heading">
+        <p class="eyebrow">SPEAK WITH ALBERTO</p>
+        <h2>Let’s talk about<br><em>your timepiece.</em></h2>
+        <p>Ask about a collection, request repair or appraisal guidance, or get help choosing the right watch. Send a message and our team will respond within 2 hours.</p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- LEFT COLUMN: Contact Details + Aptech Shahrah-e-Faisal Location Map -->
+        <div class="contact-side">
+          <p class="eyebrow">CONTACT DETAILS</p>
+          <h3>We welcome<br>your enquiry.</h3>
+          <div class="contact-detail">
+            <span>OFFICIAL EMAIL</span>
+            <a href="mailto:info@albertowatch.com">info@albertowatch.com</a>
+          </div>
+          <div class="contact-detail">
+            <span>CENTRAL HELPLINE</span>
+            <a href="tel:+9221111222333">+92 21 111 222 333 / +92 51 1234567</a>
+          </div>
+          <div class="contact-detail">
+            <span>HEADQUARTERS</span>
+            <p>Clifton Block 4, Main Beach Avenue<br>Karachi, Pakistan</p>
+          </div>
+          <div class="contact-hours">
+            <span>FOR STORE HOURS &amp; DIRECTIONS</span>
+            <a href="#locator" data-page="locator">Visit the Store Locator ↗</a>
+          </div>
+
+          <!-- APTECH SHAHRAH-E-FAISAL LOCATION MAP (SRS & User Specification) -->
+          <div class="contact-map-wrap">
+            <div class="contact-map-header">
+              <span class="eyebrow"><i class="fa-solid fa-location-dot me-1"></i> APTECH ACADEMIC CENTRE</span>
+              <h4 class="contact-map-title">Aptech Shahrah-e-Faisal</h4>
+              <p class="contact-map-sub">Business Avenue, Main Shahrah-e-Faisal, Karachi, Pakistan</p>
+            </div>
+            <div class="contact-map-frame">
+              <iframe 
+                title="Aptech Shahrah-e-Faisal Centre Map"
+                src="https://maps.google.com/maps?q=Aptech+Computer+Education+Shahrah-e-Faisal+Karachi&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div class="contact-map-footer">
+              <a href="https://maps.google.com/?q=Aptech+Computer+Education+Shahrah-e-Faisal+Karachi" target="_blank" rel="noopener" class="map-directions-link">
+                OPEN DIRECTIONS IN GOOGLE MAPS ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: Contact Form with Strict Validation -->
+        <form class="premium-contact-form" id="contactForm" novalidate>
+          <p class="eyebrow">SEND A MESSAGE</p>
+          <h3>How can we help?</h3>
+
+          <!-- Name Field -->
+          <div class="form-group-val">
+            <label for="cName">Your Full Name *</label>
+            <input id="cName" class="form-control" placeholder="e.g. Tariq Mansoor" autocomplete="name" minlength="3" maxlength="80" aria-describedby="cNameErr" required>
+            <span class="val-error" id="cNameErr">Enter a name with at least 3 letters; numbers and symbols are not allowed.</span>
+          </div>
+
+          <!-- Email Field -->
+          <div class="form-group-val">
+            <label for="cMail">Email Address *</label>
+            <input id="cMail" type="email" class="form-control" placeholder="you@example.com" autocomplete="email" maxlength="254" aria-describedby="cMailErr" required>
+            <span class="val-error" id="cMailErr">Please enter a valid email address (e.g. name@domain.com).</span>
+          </div>
+
+          <!-- Phone Field -->
+          <div class="form-group-val">
+            <label for="cPhone">Phone Number *</label>
+            <input id="cPhone" type="tel" class="form-control" placeholder="+92 300 1234567" autocomplete="tel" maxlength="25" aria-describedby="cPhoneErr" required>
+            <span class="val-error" id="cPhoneErr">Enter a valid phone number containing 10 to 15 digits.</span>
+          </div>
+
+          <!-- Topic Selection -->
+          <div class="form-group-val">
+            <label for="cTopic">Inquiry Topic *</label>
+            <select id="cTopic" class="form-select" aria-describedby="cTopicErr" required>
+              <option value="">Select an inquiry topic...</option>
+              <option value="Watch collection">Watch collection (Rolex, Rado, Citizen)</option>
+              <option value="Repair &amp; servicing">Master Repair &amp; Ultrasonic Servicing</option>
+              <option value="Appraisal">Official Valuation &amp; Appraisal Certificate</option>
+              <option value="Warranty &amp; support">5-Year Warranty &amp; Ownership</option>
+              <option value="Store information">Store appointment &amp; directions</option>
+              <option value="General enquiry">General enquiry</option>
+            </select>
+            <span class="val-error" id="cTopicErr">Please select a topic for your inquiry.</span>
+          </div>
+
+          <!-- Message Field -->
+          <div class="form-group-val">
+            <label for="cMsg">Your Message *</label>
+            <textarea id="cMsg" class="form-control" rows="5" maxlength="2000" placeholder="Please tell us about your timepiece inquiry..." aria-describedby="cMsgErr" required></textarea>
+            <span class="val-error" id="cMsgErr">Enter a message between 10 and 2,000 characters.</span>
+          </div>
+
+          <button id="sendBtn" class="btn btn-gold w-100" type="submit">
+            SEND ENQUIRY <span>↗</span>
+          </button>
+          <p id="sendNote" class="contact-feedback" role="status" aria-live="polite"></p>
+          <small class="form-disclaimer">Alberto protects your personal privacy. Inquiries are handled with complete confidentiality.</small>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<button id="backTop" class="back-top" aria-label="Back to top">↑</button>
+
+<!-- DETAILS POPUP WINDOW (SRS Requirement) -->
+<div class="wmodal" id="watchModal">
+  <div class="wmodal-box">
+    <button class="wclose" id="mClose" aria-label="Close">&times;</button>
+    <div class="modal-eyebrow">ALBERTO WATCHES · SIGNATURE SPECIFICATIONS</div>
+    <h3 id="mTitle"></h3>
+    <div class="modal-detail-grid">
+      <div class="modal-photo-panel" id="mImg"></div>
+      <div class="modal-info">
+        <div class="modal-about">
+          <span>ABOUT THE TIMEPIECE</span>
+          <p id="mDesc"></p>
+        </div>
+        <div class="modal-spec-card">
+          <span class="modal-section-title">CRAFT &amp; HOROLOGICAL SPECIFICATIONS</span>
+          <ul id="mSpecs" class="list-unstyled"></ul>
+        </div>
+        <div class="modal-price-row">
+          <div>
+            <span>EXCLUSIVE PRICE (PKR)</span>
+            <p class="price" id="mPrice"></p>
+          </div>
+          <button id="mCartBtn" class="modal-cart-btn" type="button">ADD TO CART <b>+</b></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER VIDEO (shows on every page because it sits outside the page sections) -->
+<section class="footer-video" aria-label="Alberto footer video">
+  <video autoplay muted loop playsinline preload="metadata" poster="images/men-luxury-02.png">
+    <source src="images/alberto-luxury-hero.mp4" type="video/mp4">
+  </video>
+  <div class="footer-video-shade"></div>
+  <div class="footer-video-text">
+    <p>ALBERTO WATCH COMPANY</p>
+    <h3>Time, <em>well kept.</em></h3>
+  </div>
+</section>
+
+<!-- LUXURY FOOTER & SITE MAP FLOWCHART TRIGGER -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <!-- Column 1: Brand & Craft -->
+    <div class="footer-brand">
+      <a class="footer-logo" href="#home" data-page="home">
+        <span class="footer-crown">♛</span>
+        <span><strong>ALBERTO</strong><small>WATCHES</small></span>
+      </a>
+      <p>Precision Swiss and global timepieces for those who appreciate master craftsmanship, presence and timeless luxury.</p>
+      <div class="footer-rule"></div>
+      <span class="footer-note">POWER &nbsp;|&nbsp; STYLE &nbsp;|&nbsp; PRECISION</span>
+      <div class="footer-socials" aria-label="Follow Alberto on social media">
+        <a href="https://www.facebook.com/login/" target="_blank" rel="noopener noreferrer" aria-label="Facebook login" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer" aria-label="Instagram login" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/i/flow/login" target="_blank" rel="noopener noreferrer" aria-label="X login" title="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Column 2: Navigation & Flowchart Link -->
+    <div class="footer-sitemap">
+      <p class="footer-title">SITE DIRECTORY</p>
+      <ul id="sitemapList" class="list-unstyled"></ul>
+    </div>
+
+    <!-- Column 3: Curated Collections -->
+    <div class="footer-collections">
+      <p class="footer-title">COLLECTIONS</p>
+      <a href="#products" data-page="products" data-gender="Men">Men's Collection</a>
+      <a href="#products" data-page="products" data-gender="Women">Women's Collection</a>
+      <a href="#products" data-page="products" data-gender="Kids">Kids' Collection</a>
+      <a href="#products" data-page="products" data-cat="Luxury">Luxury Watches</a>
+      <a href="#products" data-page="products" data-cat="Vintage">Vintage Chronometers</a>
+      <a href="#products" data-page="products" data-cat="Smart Watches">Smart Watch Series</a>
+      <a href="#products" data-page="products" data-cat="Clocks">Wall Clocks</a>
+      <a href="#pricelist" data-page="pricelist">Complete PKR Price Guide</a>
+    </div>
+
+    <!-- Column 4: Contact & Aptech Centre -->
+    <div class="footer-contact">
+      <p class="footer-title">ALBERTO AT A GLANCE</p>
+      <p>Clifton Block 4, Beach Avenue, Karachi<br>Aptech Shahrah-e-Faisal Centre, Karachi<br>Blue Area, Islamabad · MM Alam Rd, Lahore</p>
+      <p>info@albertowatch.com<br>+92 21 111 222 333 / +92 51 1234567</p>
+      <p class="footer-location"><i class="fa-solid fa-location-crosshairs"></i> Current Location:<br><strong id="footerLocation">Detecting your location...</strong></p>
+      <a class="footer-top" href="#home" data-page="home">Back to top ↑</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <span>© 2026 Alberto Watch Company. All Rights Reserved.</span>
+      <span>Official Single-Page-Application for Academic &amp; Luxury Horology.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- CONTINUOUS SCROLLING TICKER (Date, Time, Location & Horology Services) -->
+<footer class="ticker"><div id="tickerText"></div></footer>
+
+<!-- SITE MAP (opens when a "Site Map" button is clicked) -->
+<div class="flowchart-modal-overlay" id="sitemapFlowchartModal" role="dialog" aria-modal="true" aria-label="Site Map">
+  <div class="flowchart-box">
+    <button type="button" class="flowchart-close-btn" id="closeSitemapFlowchartBtn" aria-label="Close Site Map">×</button>
+    <h2 class="sm-title">Site Map</h2>
+    <p class="sm-hint">Click any box to jump to that page.</p>
+    <div class="sm-tree">
+      <div class="sm-root-wrap"><a href="#" class="sm-root" data-nav="home"><i class="fa-solid fa-house"></i> Home</a></div>
+      <div class="sm-row">
+<div class="sm-col"><a href="#" class="sm-node" data-nav="products"><i class="fa-solid fa-bag-shopping"></i> Products</a><ul class="sm-subs"><li><a href="#" class="sm-sub" data-nav="products" data-cat="Luxury">Luxury</a></li><li><a href="#" class="sm-sub" data-nav="products" data-cat="Vintage">Vintage</a></li><li><a href="#" class="sm-sub" data-nav="products" data-cat="Smart Watches">Smart Watches</a></li><li><a href="#" class="sm-sub" data-nav="products" data-gender="Men">Men's Watches</a></li><li><a href="#" class="sm-sub" data-nav="products" data-gender="Women">Women's Watches</a></li><li><a href="#" class="sm-sub" data-nav="products" data-gender="Kids">Kids' Watches</a></li><li><a href="#" class="sm-sub" data-nav="products" data-cat="Clocks">Clocks</a></li></ul></div>
+<div class="sm-col"><a href="#" class="sm-node" data-nav="pricelist"><i class="fa-solid fa-tags"></i> Price List</a></div>
+<div class="sm-col"><a href="#" class="sm-node" data-nav="technology"><i class="fa-solid fa-microchip"></i> Technology</a></div>
+<div class="sm-col"><a href="#" class="sm-node" data-nav="locator"><i class="fa-solid fa-location-dot"></i> Store Locator</a></div>
+<div class="sm-col"><a href="#" class="sm-node" data-nav="gallery"><i class="fa-solid fa-images"></i> Gallery</a></div>
+<div class="sm-col"><a href="#" class="sm-node" data-nav="support"><i class="fa-solid fa-headset"></i> Support</a><ul class="sm-subs"><li><a href="#" class="sm-sub" data-nav="support">Services</a></li><li><a href="#" class="sm-sub" data-nav="support" data-scroll="faq">FAQ</a></li></ul></div>
+<div class="sm-col"><a href="#" class="sm-node" data-nav="about"><i class="fa-solid fa-building"></i> About</a><ul class="sm-subs"><li><a href="#" class="sm-sub" data-nav="about" data-scroll="teamGrid">Our Team</a></li></ul></div>
+<div class="sm-col"><a href="#" class="sm-node" data-nav="contact"><i class="fa-solid fa-envelope"></i> Contact</a><ul class="sm-subs"><li><a href="#" class="sm-sub" data-nav="contact" data-scroll="contactForm">Message Form</a></li></ul></div>
+<div class="sm-col"><a href="#" class="sm-node" data-bag="1"><i class="fa-solid fa-cart-shopping"></i> Shopping Bag</a><ul class="sm-subs"><li><a href="#" class="sm-sub" data-bag="1">Checkout</a></li></ul></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="watches.js"></script>
+<script src="intro.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
